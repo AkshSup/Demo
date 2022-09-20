@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Suite">
+<suite name="Suite" parallel="classes">
   <test thread-count="5" name="Test">
-    <classes>
-      <class name="com.ibm.SC_Bank.Login_Test"/>
-    </classes>
+  	<classes>
+  		<class name="com.ibm.SC_Bank.Chrome1" />
+  		<class name="com.ibm.SC_Bank.Chrome2" />
+  		<class name="com.ibm.SC_Bank.Chrome3" />
+  		<class name="com.ibm.SC_Bank.Firefox" />
+  	</classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
