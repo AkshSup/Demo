@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-25T17:20:07 IST" name="Suite" finished-at="2022-09-25T17:22:17 IST" duration-ms="129984">
+    <groups>
+    </groups>
+    <test started-at="2022-09-25T17:20:07 IST" name="Test" finished-at="2022-09-25T17:22:17 IST" duration-ms="129984">
+      <class name="test.One1">
+        <test-method is-config="true" signature="start()[pri:0, instance:test.One1@6e171cd7]" started-at="2022-09-25T17:21:07 IST" name="start" finished-at="2022-09-25T17:21:13 IST" duration-ms="6557" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="one()[pri:0, instance:test.One1@6e171cd7]" started-at="2022-09-25T17:21:13 IST" name="one" finished-at="2022-09-25T17:21:16 IST" duration-ms="2412" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- one -->
+        <test-method is-config="true" signature="stop()[pri:0, instance:test.One1@6e171cd7]" started-at="2022-09-25T17:21:16 IST" name="stop" finished-at="2022-09-25T17:21:16 IST" duration-ms="105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stop -->
+      </class> <!-- test.One1 -->
+      <class name="test.Setup_DockerGrid">
+        <test-method is-config="true" signature="start()[pri:0, instance:test.Setup_DockerGrid@5119fb47]" started-at="2022-09-25T17:20:07 IST" name="start" finished-at="2022-09-25T17:21:07 IST" duration-ms="60030" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method is-config="true" signature="stop()[pri:0, instance:test.Setup_DockerGrid@5119fb47]" started-at="2022-09-25T17:21:47 IST" name="stop" finished-at="2022-09-25T17:22:17 IST" duration-ms="30010" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stop -->
+      </class> <!-- test.Setup_DockerGrid -->
+      <class name="test.Three3">
+        <test-method is-config="true" signature="start()[pri:0, instance:test.Three3@795cd85e]" started-at="2022-09-25T17:21:31 IST" name="start" finished-at="2022-09-25T17:21:43 IST" duration-ms="12053" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="three()[pri:0, instance:test.Three3@795cd85e]" started-at="2022-09-25T17:21:43 IST" name="three" finished-at="2022-09-25T17:21:47 IST" duration-ms="3278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- three -->
+        <test-method is-config="true" signature="stop()[pri:0, instance:test.Three3@795cd85e]" started-at="2022-09-25T17:21:47 IST" name="stop" finished-at="2022-09-25T17:21:47 IST" duration-ms="169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stop -->
+      </class> <!-- test.Three3 -->
+      <class name="test.Two2">
+        <test-method is-config="true" signature="start()[pri:0, instance:test.Two2@402bba4f]" started-at="2022-09-25T17:21:16 IST" name="start" finished-at="2022-09-25T17:21:29 IST" duration-ms="13453" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="two()[pri:0, instance:test.Two2@402bba4f]" started-at="2022-09-25T17:21:29 IST" name="two" finished-at="2022-09-25T17:21:31 IST" duration-ms="1248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- two -->
+        <test-method is-config="true" signature="stop()[pri:0, instance:test.Two2@402bba4f]" started-at="2022-09-25T17:21:31 IST" name="stop" finished-at="2022-09-25T17:21:31 IST" duration-ms="633" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stop -->
+      </class> <!-- test.Two2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
